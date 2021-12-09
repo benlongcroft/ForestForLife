@@ -26,15 +26,15 @@
             <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav">
                 {% if user.is_authenticated %}
-                    <li class="nav-item"><a class="nav-link" href="#">Sonny's Game</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Explore</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'sonnygame' %}">Sonny's Game</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'explore' %}">Explore</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="{% url 'accounts:logout' %}">Logout</a></li>
                 {% else %}
                     <li class="nav-item"><a class="nav-link" href="{% url 'accounts:register' %}">Register</a></li>
                     <li class="nav-item"><a class="nav-link" href="{% url 'accounts:login' %}">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Explore</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'explore' %}">Explore</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
                 {% endif %}
             </ul>
             </div>

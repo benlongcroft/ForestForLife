@@ -12,17 +12,23 @@ counteract the effects of pollution, turning pollution into clean air. The users
 enough trees to offset the effects of pollution and lower the pollution levels to eventually zero.
 
 ### To-Do:
-- Add functionality to Explore, About and Sonny's Game
-- Add filler content to pages for design premises
+- Add filler content to pages for design purposes
+- Add admin functionality
+- Add admin security log
+- Add RSS feed to explore page
+- Login attempt limited to 3
+- Add two-factor authorisation
 
 ### Known Bugs:
 - Navbar hamburger not expanding or collapsing
 - SQlite is used instead of MYSQL for prototype
 
 ### Current Functionality:
-- User is able to move between register, login and logout
+- User is able to move between all pages
 - User is able to register, in-which case they are re-directed to the login page
 - User is able to login
 - User is greeted by an additional welcome page after logging in
 - User is greeted by an additional goodbye page after logging out
 - Sonny's game and logout page is only visible on navbar after user is logged in
+- User passwords are hashed
+- 

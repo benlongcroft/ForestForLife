@@ -12,3 +12,15 @@ class LogoutTest(TemplateView):
 class HomePage(TemplateView):
     template_name = 'index.html'
 
+
+class ExplorePage(TemplateView):
+    template_name = 'explore.html'
+
+
+class AboutPage(TemplateView):
+    template_name = 'about.html'
+
+
+class SonnygamePage(TemplateView):
+    template_name = 'sonnygame.html'
+

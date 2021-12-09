@@ -24,19 +24,19 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav">
+            <div class="navbar-nav">
                 {% if user.is_authenticated %}
-                    <li class="nav-item"><a class="nav-link" href="{% url 'sonnygame' %}">Sonny's Game</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'explore' %}">Explore</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'accounts:logout' %}">Logout</a></li>
+                    <a class="nav-link" href="{% url 'sonnygame' %}">Sonny's Game</a>
+                    <a class="nav-link" href="{% url 'explore' %}">Explore</a>
+                    <a class="nav-link" href="{% url 'about' %}">About</a>
+                    <a class="nav-link" href="{% url 'accounts:logout' %}">Logout</a>
                 {% else %}
-                    <li class="nav-item"><a class="nav-link" href="{% url 'accounts:register' %}">Register</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'accounts:login' %}">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'explore' %}">Explore</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
+                    <a class="nav-link" href="{% url 'accounts:register' %}">Register</a>
+                    <a class="nav-link" href="{% url 'accounts:login' %}">Login</a>
+                    <a class="nav-link" href="{% url 'explore' %}">Explore</a>
+                    <a class="nav-link" href="{% url 'about' %}">About</a>
                 {% endif %}
-            </ul>
+            </div>
             </div>
         </div>
     </nav>

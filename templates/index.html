@@ -1,7 +1,19 @@
 {% extends "base.html" %}
 
 {% block content %}
-
-<h1>Welcome to Forest For Life</h1>
+{% load static %}
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 pb-4">
+                <h1 class="display-4 font-weight-bold">Forest For Life</h1>
+                <h5>Reversing deforestation is complicated; planting trees is simple</h5>
+                <h6>By Martin O'Malley</h6>
+                <a class="btn btn-primary mt-2" href="/explore">Make a Difference</a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <img class="img-fluid rounded" src="{% static 'forestforlife/img/Home_page_deforest.jpg' %}" alt="Deforestation">
+            </div>
+        </div>
+    </div>
 
 {% endblock %}

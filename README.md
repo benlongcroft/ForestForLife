@@ -14,10 +14,10 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 ### To-Do:
 - Add filler content to pages for design purposes
 - Add admin functionality
-- Add admin security log
 - Add RSS feed to explore page
 - Login attempt limited to 3
 - Add two-factor authorisation
+- Banner Copywrite
 
 ### Known Bugs:
 - Navbar hamburger not expanding or collapsing
@@ -31,4 +31,19 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 - User is greeted by an additional goodbye page after logging out
 - Sonny's game and logout page is only visible on navbar after user is logged in
 - User passwords are hashed
-- 
+- Admin is able to login, view all users and access login attempts
+- Security headers inplace, enforcing HTTPS and other security related features
+
+## How to run game
+./manage.py runserver_plus --cert /tmp/cert
+
+### Temporary User Information
+User:
+Username: testuser
+Password: testpasswordd
+
+Admin:
+Username: admin
+Password: testpassword
+
+

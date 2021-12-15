@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'profiles',
     'django_bootstrap5',
     'django_extensions',
-    'axes'
+    'axes',
+    'django_mysql',
 ]
 
 MIDDLEWARE = [
@@ -84,8 +85,10 @@ WSGI_APPLICATION = 'src.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'OPTIONS': {
+            'read_default_file': 'my.cnf',
+        },
     }
 }
 

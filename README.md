@@ -15,9 +15,8 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 - Add filler content to pages for design purposes
 - Add admin functionality
 - Add RSS feed to explore page
-- Login attempt limited to 3
 - Add two-factor authorisation
-- Banner Copywrite
+- Banner copywrite
 
 ### Known Bugs:
 - Navbar hamburger not expanding or collapsing
@@ -35,7 +34,10 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 - Security headers inplace, enforcing HTTPS and other security related features
 
 ## How to run game
+#### Mac
 ./manage.py runserver_plus --cert /tmp/cert
+#### Windows
+python manage.py runserver_plus --cert /tmp/cert
 
 ### Temporary User Information
 User:

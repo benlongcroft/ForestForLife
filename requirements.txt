@@ -1,2 +1,8 @@
 Django
 django_bootstrap5
+django_extensions
+django-axes
+Werkzeug
+pyOpenSSL
+django_mysql
+pymysql

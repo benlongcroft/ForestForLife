@@ -48,4 +48,8 @@ Admin:
 Username: admin
 Password: testpassword
 
+##Copyright Information
+Logo - https://creazilla.com/nodes/79045-cartoon-tree-clipart
+Home Page Image - https://www.pinterest.co.uk/pin/672162313131260922/
+Footer Template - https://codingpoets.com/build-a-professional-web-application-with-php-and-mysql
 

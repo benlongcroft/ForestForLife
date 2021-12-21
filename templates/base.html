@@ -9,13 +9,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Forrest For Life</title>
-
-    {#    font stylesheet from googleapis#}
+    <script src="https://kit.fontawesome.com/f5767d8d66.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="{% static 'forestforlife/css/master.css'%}">
 
 </head>
 <body>
+
+{#------------#}
+{#---Navbar---#}
+{#------------#}
 
     <nav class='navbar navbar-expand-lg navbar-light bg-light' role="navigation" id="navbar">
         <div class="container">
@@ -41,12 +44,73 @@
         </div>
     </nav>
 
-    <div class="container mycontent">
+
+{#------------#}
+{#---Content--#}
+{#------------#}
+
+    <div class="container-mycontent">
 
         {% block content %}
 
         {% endblock %}
 
     </div>
+
+
+{#------------#}
+{#---Footer---#}
+{#------------#}
+
+<div class="footer">
+    <div class="footer-content">
+
+      <div class="footer-section about">
+        <h1 class="logo-text"><span>Forest</span>For Life</h1>
+        <p>
+          ForestForLife is a project striving to inform the general public about the risks and concerns relating to
+            climate change and deforestation. The project offers various types of informative sources, ranging from
+            blogs, articles and even a game, catering to a wide audience.
+        </p>
+
+        <div class="socials">
+          <p>Follow Us:</p>
+          <a href="https://www.facebook.com/profile.php?id=100076324600321"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/forestforlife2033/"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/ForestForLife2"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <br>
+          <a class="nav-link" href="#">About ForestForLife</a>
+          <a class="nav-link" href="#">Donate Now</a>
+          <a class="nav-link" href="#">Data Retention Policy</a>
+          <a class="nav-link" href="#">Privacy Policy</a>
+          <a class="nav-link" href="#">Terms and Conditions</a>
+      </div>
+
+      <div class="footer-section contact-form">
+        <h2>Contact us</h2>
+        <br>
+        <form action="" method="post">
+            <label>
+                <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..."/>
+                <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+            </label>
+            <button type="submit" class="btn btn-big contact-btn">
+            <i class="fas fa-envelope">Send</i>
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      &copy; Copyright Team 22 2021 | Newcastle University
+    </div>
+  </div>
+
 </body>
 </html>

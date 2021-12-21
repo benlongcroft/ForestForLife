@@ -25,3 +25,17 @@ class AboutPage(TemplateView):
 class SonnygamePage(LoginRequiredMixin, TemplateView):
     template_name = 'sonnygame.html'
 
+
+class DataPolPage(TemplateView):
+    template_name = 'datapolicy.html'
+
+
+class PrivacyPolPage(TemplateView):
+    template_name = 'privacypolicy.html'
+
+
+class TnCPage(TemplateView):
+    template_name = 'tnc.html'
+
+
+

@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'profiles',
+    'support',
     'django_bootstrap5',
     'django_extensions',
     'axes',
@@ -150,3 +151,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'logintest'
 LOGOUT_REDIRECT_URL = 'logouttest'
+
+DEFAULT_FROM_EMAIL = 'just-soul0t@icloud.com'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

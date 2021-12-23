@@ -1,8 +1,32 @@
 {% extends 'base.html' %}
 
 {% block content %}
+{% load static %}
 
-    <h1>About Page</h1>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 pb-4">
+                <h4 class="display-4 font-weight-bold">Our Mission</h4>
+                <h5 class="font-weight-bold"> Helping restore the planet back to its natural beauty.</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae delectus dolorem illo laudantium
+                    quaerat quo tempora. Asperiores, cum debitis eaque error, excepturi fugit ipsam, pariatur quae
+                    reprehenderit sint tempora voluptatibus.</p>
+                <p>Atque, dicta non odio perferendis placeat porro reiciendis reprehenderit, rerum sunt tempore vitae
+                    voluptatibus? Architecto blanditiis officiis possimus quidem saepe. Deserunt eaque eius in
+                    necessitatibus obcaecati totam ullam, voluptas. Accusamus!</p>
+                <p>Amet corporis culpa dignissimos eius laborum necessitatibus non quaerat quibusdam reprehenderit
+                    rerum. Dignissimos dolore ducimus eum illum necessitatibus nihil numquam odio optio, rerum?
+                    Cupiditate fugit maxime placeat tempore! Impedit, labore!</p>
+                <p>Adipisci commodi doloremque eos fugit id odit placeat saepe totam vero voluptatibus? Asperiores eius
+                    error harum quam quasi tenetur. Ad amet delectus eos, illo nesciunt nulla odit repellendus ullam
+                    voluptatum!</p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <img class="img-fluid rounded" src="{% static 'forestforlife/img/forest.jpg' %}" alt="Forest">
+            </div>
+        </div>
+    </div>
+
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto aspernatur ducimus, eius esse ex
         illo itaque labore maiores necessitatibus obcaecati odit optio quasi qui ratione, rerum sunt vitae,
         voluptatem?</p>

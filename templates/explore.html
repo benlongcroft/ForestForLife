@@ -2,26 +2,24 @@
 {% load static %}
 {% block content %}
 
-    <h1>Explore Page</h1>
     <br>
     <div class="container">
-
-
-
-    <div class="row g-3">
-        <div class="col-12 col-md-6 col-lg-3">
-            <div class="card">
-                <img class="card-img-top" src="{% static 'forestforlife/img/climate_change.jpg' %}" alt="Climate Change">
-                <div class="card-body">
-                    <h5 class="card-title">Climate Change</h5>
-                    <p class="card-text">An article reporting on recent climate change concerns, analysing data.</p>
-                    <a href="https://www.ipcc.ch/2021/08/09/ar6-wg1-20210809-pr/" class="btn btn-primary">Article</a>
-                </div>
+        <h1 class="display-6 font-weight-bold">Recent articles</h1>
+        <br>
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="{% static 'forestforlife/img/climate_change.jpg' %}" alt="Climate Change">
+                    <div class="card-body">
+                        <h5 class="card-title">Climate Change</h5>
+                        <p class="card-text">An article reporting on recent climate change concerns, analysing data.</p>
+                        <a href="https://www.ipcc.ch/2021/08/09/ar6-wg1-20210809-pr/" class="btn btn-primary">Article</a>
+                    </div>
                 <div class="card-footer text-muted">
                     8 hours ago
                 </div>
+                </div>
             </div>
-        </div>
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card">
                 <img class="card-img-top" src="{% static 'forestforlife/img/deforestation2.jpg' %}" alt="Card image cap">

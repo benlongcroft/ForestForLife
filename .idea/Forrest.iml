@@ -19,6 +19,7 @@
     <orderEntry type="jdk" jdkName="Python 3.9 (Forrest)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="f5767d8d66" level="application" />
+    <orderEntry type="library" name="@popperjs/core" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

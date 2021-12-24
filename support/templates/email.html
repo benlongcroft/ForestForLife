@@ -1,16 +1,19 @@
 {% extends 'base.html' %}
-
+{% load django_bootstrap5 %}
 {% block content %}
 
-    <h1>Contact Us</h1>
+    <br>
 
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
+    <div class="container">
+        <h1 class="display-6 font-weight-bold">Contact Us</h1>
+        <form method="post">
+            {% csrf_token %}
+            {% bootstrap_form form %}
             <div class="form-actions">
-                <button type="submit">Send</button>
+                <button class="btn btn-primary mt-2" type="submit">Send</button>
             </div>
-    </form>
+        </form>
+    </div>
 
     <br>
     <br>

@@ -149,8 +149,8 @@ STATICFILES_DIRS = [BASE_DIR / 'static']
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_URL = 'login'
-LOGIN_REDIRECT_URL = 'logintest'
-LOGOUT_REDIRECT_URL = 'logouttest'
+LOGIN_REDIRECT_URL = 'sonnygame'
+LOGOUT_REDIRECT_URL = 'home'
 
 DEFAULT_FROM_EMAIL = 'just-soul0t@icloud.com'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

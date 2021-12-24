@@ -2,14 +2,6 @@ from django.views.generic import TemplateView
 from django.contrib.auth.mixins import LoginRequiredMixin
 
 
-class LoginTest(TemplateView):
-    template_name = 'logintest.html'
-
-
-class LogoutTest(LoginRequiredMixin, TemplateView):
-    template_name = 'logouttest.html'
-
-
 class HomePage(TemplateView):
     template_name = 'index.html'
 

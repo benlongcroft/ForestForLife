@@ -152,5 +152,10 @@ LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'sonnygame'
 LOGOUT_REDIRECT_URL = 'home'
 
-DEFAULT_FROM_EMAIL = 'just-soul0t@icloud.com'
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+DEFAULT_FROM_EMAIL = 'n.dawson3@newcastle.ac.uk'
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST_USER = 'apikey'
+EMAIL_HOST_PASSWORD = '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'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True

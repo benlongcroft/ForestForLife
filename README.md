@@ -12,26 +12,16 @@ counteract the effects of pollution, turning pollution into clean air. The users
 enough trees to offset the effects of pollution and lower the pollution levels to eventually zero.
 
 ### To-Do:
-- Add filler content to pages for design purposes
+- Add content to privacypolicy.html, tnc.html and datapolicy.html
+- Add donate page form and functionality
 - Add admin functionality
-- Add RSS feed to explore page
 - Add two-factor authorisation
-- Banner copywrite
+- Enforce page authorisation
+- (Potentially) Add ads to Sonny's Game Page
 
 ### Known Bugs:
-- Navbar hamburger not expanding or collapsing
-- SQlite is used instead of MYSQL for prototype
-
-### Current Functionality:
-- User is able to move between all pages
-- User is able to register, in-which case they are re-directed to the login page
-- User is able to login
-- User is greeted by an additional welcome page after logging in
-- User is greeted by an additional goodbye page after logging out
-- Sonny's game and logout page is only visible on navbar after user is logged in
-- User passwords are hashed
-- Admin is able to login, view all users and access login attempts
-- Security headers inplace, enforcing HTTPS and other security related features
+- SQlite is used instead of MYSQL due to connection issues
+- Testing of limited logins is required
 
 ## How to run game
 #### Mac
@@ -50,7 +40,16 @@ Password: testpassword
 
 ##Copyright Information
 Logo - https://creazilla.com/nodes/79045-cartoon-tree-clipart
+
 Home Page Image - https://www.pinterest.co.uk/pin/672162313131260922/
+
 Footer Template - https://codingpoets.com/build-a-professional-web-application-with-php-and-mysql
-About Page image - https://www.pexels.com/photo/waterfalls-in-forest-355321/
+
+About Page image - https://images.pexels.com/photos/3493777/pexels-photo-3493777.jpeg?cs=srgb&dl=pexels-aleksey-kuprikov-3493777.jpg&fm=jpg
+
+Article Images:
+- https://media.nationalgeographic.org/assets/photos/239/748/b45dce32-21f4-4646-99d0-2057f6a12e49.jpg
+- https://wwfint.awsassets.panda.org/img/original/deforestation_fronts_report_cover.jpg
+- https://www.worldatlas.com/r/w1200/upload/6a/4b/49/shutterstock-1408605185.jpg
+- https://youmatter.world/app/uploads/sites/2/2018/10/climate-change-definition-meaning.jpg
 

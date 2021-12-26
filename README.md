@@ -12,6 +12,7 @@ counteract the effects of pollution, turning pollution into clean air. The users
 enough trees to offset the effects of pollution and lower the pollution levels to eventually zero.
 
 ### To-Do:
+- Redesign home page navbar
 - Add content to privacypolicy.html, tnc.html and datapolicy.html
 - Add donate page form and functionality
 - Add admin functionality
@@ -41,7 +42,7 @@ Password: testpassword
 ##Copyright Information
 Logo - https://creazilla.com/nodes/79045-cartoon-tree-clipart
 
-Home Page Image - https://www.pinterest.co.uk/pin/672162313131260922/
+Home Page Image - https://www.freepik.com/free-photo/high-angle-shot-beautiful-forest-with-lot-green-trees-enveloped-fog-new-zealand_10835665.htm#query=forest&position=7&from_view=keyword
 
 Footer Template - https://codingpoets.com/build-a-professional-web-application-with-php-and-mysql
 

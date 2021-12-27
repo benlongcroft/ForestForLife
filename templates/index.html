@@ -5,7 +5,32 @@
 {% endblock %}
 
 {% block content %}
+
     <section class="intro">
+
+        <nav class='navbar navbar-expand-sm mt-3' id="navbar">
+            <div class="container-fluid"><h3>Forest For Life</h3>
+                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                        {% if user.is_authenticated %}
+                            <a class="nav-link" href="{% url 'sonnygame' %}">Sonny's Game</a>
+                            <a class="nav-link" href="{% url 'explore' %}">Explore</a>
+                            <a class="nav-link" href="{% url 'about' %}">About</a>
+                            <a class="nav-link" href="{% url 'accounts:logout' %}">Logout</a>
+                        {% else %}
+                            <a class="nav-link" href="{% url 'accounts:register' %}">Register</a>
+                            <a class="nav-link" href="{% url 'accounts:login' %}">Login</a>
+                            <a class="nav-link" href="{% url 'explore' %}">Explore</a>
+                            <a class="nav-link" href="{% url 'about' %}">About</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </nav>
+
         <div class="inner">
             <div class="content">
                 <h1>Forest For life</h1>

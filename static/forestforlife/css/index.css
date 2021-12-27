@@ -8,16 +8,32 @@ html, body{
     width: 100vw;
     margin: auto;
     background: url("/static/forestforlife/img/forrest.jpg") no-repeat 50% 50%;
-    display: table;
+    display: table-cell;
     top: 0;
     background-size: cover;
+    position: relative;
 }
 
 .intro .inner{
-    display: table-cell;
+    display: table;
     vertical-align: middle;
     width: 100%;
     max-width: none;
+    padding-top: 30vh;
+}
+
+.intro .nav-link{
+    color: #5b5c5b;
+}
+
+.intro .nav-link:hover{
+    color: #000;
+}
+
+h3{
+    padding-right: 30px;
+    color: #5b5c5b;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
 }
 
 .content{

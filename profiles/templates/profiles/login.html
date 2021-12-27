@@ -2,15 +2,17 @@
 {% load django_bootstrap5 %}
 
 {% block content %}
-<div class="container">
-    <h1>Login</h1>
-    <form method="Post">
-        {% csrf_token %}
-        {% bootstrap_form form %}
-        <input type="submit" class="btn btn-default" value="Login">
-    </form>
+{% include 'includes/navbar.html' %}
 
-</div>
+    <div class="container">
+        <h1>Login</h1>
+        <form method="Post">
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            <input type="submit" class="btn btn-default" value="Login">
+        </form>
+    </div>
+
     <br>
     <br>
     <br>

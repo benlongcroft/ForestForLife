@@ -12,8 +12,7 @@ counteract the effects of pollution, turning pollution into clean air. The users
 enough trees to offset the effects of pollution and lower the pollution levels to eventually zero.
 
 ### To-Do:
-- Redesign home page navbar
-- Add content to privacypolicy.html, tnc.html and datapolicy.html
+- Add relevant text to all pages
 - Add donate page form and functionality
 - Add admin functionality
 - Add two-factor authorisation

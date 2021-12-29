@@ -1,0 +1,26 @@
+.donations_quote{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.donations_banner{
+    padding: 80px;
+    background-color: #bad4c0;
+}
+
+.donations_banner_info div{
+    display: grid;
+    font-size: 16px;
+    text-align: center;
+}
+
+.donations_banner_info div span{
+    font-size: 62px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+

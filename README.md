@@ -12,8 +12,9 @@ counteract the effects of pollution, turning pollution into clean air. The users
 enough trees to offset the effects of pollution and lower the pollution levels to eventually zero.
 
 ### To-Do:
+- Add security measures to SECRET_KEY and STRIPE_SECRET_KEY within settings.py
 - Add relevant text to all pages
-- Redesign donate pages
+- Redesign d_success and d_cancelled pages
 - Add admin functionality
 - Add two-factor authorisation
 - Enforce page authorisation

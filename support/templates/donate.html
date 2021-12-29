@@ -2,44 +2,55 @@
 {% load static %}
 {% block stripe %}<script src="https://js.stripe.com/v3/"></script>{% endblock %}
 {% block js %}<script src="{% static 'forestforlife/js/donate.js' %}"></script>{% endblock %}
+{% block style %}<link rel="stylesheet" href="{% static 'forestforlife/css/donate.css'%}">{% endblock %}
 
 {% block content %}
 {% include 'includes/navbar.html' %}
 
-    <br>
-
     <section class="section">
-        <div class="container">
-            <h1 class="display-6 font-weight-bold">Donate</h1>
+        <div id="section_con" class="container py-4">
+            <div id="jumbo" class="p-5 mb-4 bg-light border rounded-3">
+                <div style="text-align: center" id="jumbo_con" class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Help save our future</h1>
+                    <p class="col-md-8 fs-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, architecto aut, fugiat harum
+                        nesciunt numquam possimus quas qui quos rerum sit veniam. A consequatur consequuntur illum
+                        placeat sint unde voluptatibus. Ab ad adipisci aperiam, aspernatur corporis dicta enim esse
+                        et incidunt minima molestias, officia porro possimus quae quaerat quibusdam unde? Atque aut
+                        autem deleniti earum eos, fuga libero quam quibusdam!
+                    </p>
+                    <br>
+                    <button class="btn btn-primary btn-lg" id="submitBtn">Donate today</button>
+                </div>
+            </div>
 
             <br>
 
-            <button class="button is-primary" id="submitBtn">Donate</button>
+            <div class="donations_quote">
+                <span>Your donation will make a difference</span>
+                <br>
+                <strong>Help us reduce deforestation</strong>
+            </div>
+            <div class="donations_banner">
+                <div class="row donations_banner_info">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <span>3t</span>
+                        There are an estimated 3 trillion trees on the planet
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <span>15.3b</span>
+                        An estimated 15.3 billion trees are chopped down every year.
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <span>46%</span>
+                        Already 46% of the worlds trees have been cleared.
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
     </section>
 
-
-
-
+        <br>
+        <br>
 
 {% endblock %}

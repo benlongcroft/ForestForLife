@@ -6,3 +6,4 @@ Werkzeug
 pyOpenSSL
 django_mysql
 pymysql
+stripe

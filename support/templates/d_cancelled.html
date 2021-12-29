@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% include 'includes/navbar.html' %}
+
+    <br>
+
+    <div class="container">
+        <h1 class="display-6 font-weight-bold">Oops. Something went wrong.</h1>
+        <br>
+        <p>Unfortunately your donation was unsuccessful, please ensure you entered your details correctly.</p>
+
+        <p>If the issue continues, please contact us.</p>
+        <a class="btn btn-primary mb-2" href="{% url 'support:contact' %}">Contact us</a>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+{% endblock %}

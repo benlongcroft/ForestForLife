@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block stripe %}<script src="https://js.stripe.com/v3/"></script>{% endblock %}
+{% block js %}<script src="{% static 'forestforlife/js/donate.js' %}"></script>{% endblock %}
+
+{% block content %}
+{% include 'includes/navbar.html' %}
+
+    <br>
+
+    <section class="section">
+        <div class="container">
+            <h1 class="display-6 font-weight-bold">Donate</h1>
+
+            <br>
+
+            <button class="button is-primary" id="submitBtn">Donate</button>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </section>
+
+
+
+
+
+{% endblock %}

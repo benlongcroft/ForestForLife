@@ -13,7 +13,7 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 
 ### To-Do:
 - Add relevant text to all pages
-- Add donate page form and functionality
+- Redesign donate pages
 - Add admin functionality
 - Add two-factor authorisation
 - Enforce page authorisation

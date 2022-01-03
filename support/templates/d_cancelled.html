@@ -1,33 +1,36 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block content %}
 {% include 'includes/navbar.html' %}
 
-    <br>
-
     <div class="container">
-        <h1 class="display-6 font-weight-bold">Oops. Something went wrong.</h1>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Oops. Something went wrong</strong> Unfortunately your donation was unsuccessful, please ensure you
+            entered your details correctly.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <h1 class="text-center display-6 font-weight-bold">Donation unsuccessful.</h1>
+
         <br>
-        <p>Unfortunately your donation was unsuccessful, please ensure you entered your details correctly.</p>
 
-        <p>If the issue continues, please contact us.</p>
-        <a class="btn btn-primary mb-2" href="{% url 'support:contact' %}">Contact us</a>
+        <p class="text-center">
+            Unfortunately your donation was unsuccessful, please ensure you entered your details correctly.
+        </p>
+        <div class="col-1 mx-auto">
+            <a class="btn btn-primary mb-2" href="{% url 'support:donate' %}">Try again</a>
+        </div>
+
+        <br>
+
+        <img class="rounded mx-auto d-block img-fluid" style="width: 640px; height: 481px"
+             src="{% static 'forestforlife/img/tree.jpg' %}" alt="Planted Tree">
+
+        <br>
+
+        <p class="text-center">If the issue continues, please contact us.</p>
+        <div class="col-1 mx-auto">
+            <a class="btn btn-primary" href="{% url 'support:contact' %}">Contact us</a>
+        </div>
     </div>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
 {% endblock %}

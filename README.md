@@ -14,7 +14,7 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 ### To-Do:
 - Add security measures to SECRET_KEY and STRIPE_SECRET_KEY within settings.py
 - Add relevant text to all pages
-- Redesign d_success and d_cancelled pages
+- Redesign success.html, datapolicy.html, privacypolicy.html and tnc.html
 - Add admin functionality
 - Add two-factor authorisation
 - Enforce page authorisation
@@ -42,11 +42,17 @@ Password: testpassword
 ##Copyright Information
 Logo - https://creazilla.com/nodes/79045-cartoon-tree-clipart
 
-Home Page Image - https://www.freepik.com/free-photo/high-angle-shot-beautiful-forest-with-lot-green-trees-enveloped-fog-new-zealand_10835665.htm#query=forest&position=7&from_view=keyword
+Home Page Image - https://www.freepik.com/free-photo/high-angle-shot-beautiful-forest-with-lot-green-trees-enveloped-
+fog-new-zealand_10835665.htm#query=forest&position=7&from_view=keyword
 
 Footer Template - https://codingpoets.com/build-a-professional-web-application-with-php-and-mysql
 
-About Page image - https://images.pexels.com/photos/3493777/pexels-photo-3493777.jpeg?cs=srgb&dl=pexels-aleksey-kuprikov-3493777.jpg&fm=jpg
+About Page image - https://images.pexels.com/photos/3493777/pexels-photo-3493777.jpeg?cs=srgb&dl=pexels-aleksey-
+kuprikov-3493777.jpg&fm=jpg
+
+D_success image - https://unsplash.com/photos/YtqUWAlL2GE
+
+D_cancelled image - https://www.freeimages.com/photo/autumn-tree-1408307
 
 Article Images:
 - https://media.nationalgeographic.org/assets/photos/239/748/b45dce32-21f4-4646-99d0-2057f6a12e49.jpg

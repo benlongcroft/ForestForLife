@@ -50,6 +50,8 @@ Footer Template - https://codingpoets.com/build-a-professional-web-application-w
 About Page image - https://images.pexels.com/photos/3493777/pexels-photo-3493777.jpeg?cs=srgb&dl=pexels-aleksey-
 kuprikov-3493777.jpg&fm=jpg
 
+Donate Stripe code tutorial - https://testdriven.io/blog/django-stripe-tutorial/
+
 D_success image - https://unsplash.com/photos/YtqUWAlL2GE
 
 D_cancelled image - https://www.freeimages.com/photo/autumn-tree-1408307

@@ -3,26 +3,58 @@
 {% block content %}
 {% include 'includes/navbar.html' %}
 
-    <div class="container">
+    <div style="text-align: center" class="container">
         <h1 class="display-4 font-weight-bold">Sonny's Game</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at consequuntur cum delectus doloribus eos esse
-            fugiat illum, in inventore laborum mollitia neque optio quam quas quibusdam, suscipit temporibus
-            voluptates.</p>
-        <p>Ab accusantium architecto consectetur consequuntur dicta distinctio dolorum ea eveniet facere ipsa labore
-            magnam maxime minima modi mollitia nihil nobis odio quae repellat repellendus reprehenderit repudiandae,
-            sunt voluptas voluptate voluptatum?</p>
-        <p>Asperiores cum doloremque, dolorum facere fugiat maxime numquam omnis porro soluta voluptatum! Commodi enim
-            eos, illum ipsam laborum pariatur sapiente sed ullam! Accusantium aspernatur corporis nemo nihil officia
-            pariatur, veritatis!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos eaque labore odio porro, rerum
-            soluta voluptatem. Asperiores commodi, dignissimos illum ipsum itaque modi non pariatur perspiciatis
-            quibusdam quo rem!</p>
-        <p>Animi consequuntur cum cupiditate iure necessitatibus nihil, nisi nulla voluptate. Deserunt enim eos eveniet
-            labore laudantium modi quasi qui quia rem repellendus, saepe voluptatibus! Cum facilis nobis odit quam
-            repudiandae?</p>
+        <br>
+
+        <div class="accordion" id="sonny_info">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-1">
+                    <button style="display: inline; width: 100%; text-align: center" class="accordion-button"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#sonny-1"
+                            aria-expanded="true" aria-controls="sonny-1">Sonny's Game - Backstory
+                    </button>
+                </h2>
+                <div id="sonny-1" class="accordion-collapse collapse" aria-labelledby="heading-1"
+                     data-bs-parent="#sonny-info">
+                    <div class="accoridon-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, consectetur id minus
+                            numquam quaerat quas quidem quod voluptates. Et labore, porro? Beatae blanditiis culpa fuga
+                            ipsum necessitatibus quibusdam ratione ut.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem, consequuntur deleniti
+                            dicta dolores est fugiat ipsam non odit officia pariatur praesentium quam quas quia sequi
+                            sint tenetur ullam unde!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-2">
+                    <button
+                            style="display: inline; width: 100%; text-align: center" class="accordion-button"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#sonny-2"
+                            aria-expanded="true" aria-controls="sonny-2">Sonny's Game - Tutorial
+                    </button>
+                </h2>
+                <div id="sonny-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                     data-bs-parent="#sonny-info">
+                    <div class="accoridon-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, consectetur id minus
+                            numquam quaerat quas quidem quod voluptates. Et labore, porro? Beatae blanditiis culpa fuga
+                            ipsum necessitatibus quibusdam ratione ut.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem, consequuntur deleniti
+                            dicta dolores est fugiat ipsam non odit officia pariatur praesentium quam quas quia sequi
+                            sint tenetur ullam unde!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
 
         <iframe src="https://i.simmer.io/@Thirty/sonny-s-game" style="width:960px;height:600px"></iframe>
+
     </div>
 
     <br>

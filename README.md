@@ -12,17 +12,46 @@ counteract the effects of pollution, turning pollution into clean air. The users
 enough trees to offset the effects of pollution and lower the pollution levels to eventually zero.
 
 ### To-Do:
-- Add security measures to SECRET_KEY and STRIPE_SECRET_KEY within settings.py
-- Add relevant text to all pages
-- Redesign success.html, datapolicy.html, privacypolicy.html and tnc.html
+- Add text to Home page
+- Add text to Explore page
+- Add text to About page
+- Add text to Data Retention Policy page
+- Add text to Privacy Policy page
+- Add text to Terms and Conditions Page
+- Add text to Donate page
+- Add text to Sonny’s game
+- Add text to email success page
+- Redesign email success page 
+- Redesign data policy page
+- Redesign privacy policy page
+- Redesign terms and cons page
+- Redesign README.md (to be done last)
+- Add encryption to stripe keys
+- Carousel feature within about page not responsive, needs fixing
 - Add admin functionality
+- Add naming a source to home page quote
+- Update meet the team pictures 
+
+#### Pages Completed
+- Donate success page
+- Donate cancelled page
+- Email page
+- Login page
+- Register page
+
+#### Optional Changes
 - Add two-factor authorisation
-- Enforce page authorisation
-- (Potentially) Add ads to Sonny's Game Page
+- Add ads to sonny's forest game page
+- Use MySQL instead of SQlite
+- Add leaderboard feature to sonny's forest game page
+- Redesign home page navbar
+- Redesign lower home page content
+- Update social media accounts
 
 ### Known Bugs:
 - SQlite is used instead of MYSQL due to connection issues
 - Testing of limited logins is required
+- Carousel feature within about.html not responsive
 
 ## How to run game
 #### Mac

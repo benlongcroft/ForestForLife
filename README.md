@@ -57,7 +57,7 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 #### Mac
 ./manage.py runserver_plus --cert /tmp/cert
 #### Windows
-python manage.py runserver_plus --cert /tmp/cert
+python manage.py runserver_plus --cert-file cert.pem --key-file key.pem
 
 ### Temporary User Information
 User:

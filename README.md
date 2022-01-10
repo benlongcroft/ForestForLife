@@ -18,7 +18,6 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 - Add text to Data Retention Policy page
 - Add text to Privacy Policy page
 - Add text to Terms and Conditions Page
-- Add text to Donate page
 - Add text to Sonny’s game
 - Add text to email success page
 - Redesign email success page 
@@ -27,12 +26,11 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 - Redesign terms and cons page
 - Redesign README.md (to be done last)
 - Add encryption to stripe keys
-- Carousel feature within about page not responsive, needs fixing
 - Add admin functionality
-- Add naming a source to home page quote
 - Update meet the team pictures 
 
 #### Pages Completed
+- Donate Page
 - Donate success page
 - Donate cancelled page
 - Email page
@@ -45,13 +43,11 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 - Use MySQL instead of SQlite
 - Add leaderboard feature to sonny's forest game page
 - Redesign home page navbar
-- Redesign lower home page content
 - Update social media accounts
 
 ### Known Bugs:
 - SQlite is used instead of MYSQL due to connection issues
 - Testing of limited logins is required
-- Carousel feature within about.html not responsive
 
 ## How to run game
 #### Mac

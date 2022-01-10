@@ -71,8 +71,12 @@ Password: testpassword
 ##Copyright Information
 Logo - https://creazilla.com/nodes/79045-cartoon-tree-clipart
 
-Home Page Image - https://www.freepik.com/free-photo/high-angle-shot-beautiful-forest-with-lot-green-trees-enveloped-
+Home Page Background Image - https://www.freepik.com/free-photo/high-angle-shot-beautiful-forest-with-lot-green-trees-enveloped-
 fog-new-zealand_10835665.htm#query=forest&position=7&from_view=keyword
+
+Home Page Card Navs:
+https://unsplash.com/photos/Xywi2MePlYQ
+https://unsplash.com/photos/F5s2rcNtSi0
 
 Footer Template - https://codingpoets.com/build-a-professional-web-application-with-php-and-mysql
 

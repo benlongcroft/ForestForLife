@@ -74,6 +74,16 @@ Home Page Card Navs:
 https://unsplash.com/photos/Xywi2MePlYQ
 https://unsplash.com/photos/F5s2rcNtSi0
 
+Home Page info sources:
+- https://www.ukri.org/news/studying-how-trees-can-help-the-uk-reach-net-zero-emissions/
+- https://climate.nasa.gov/evidence/
+- https://www.nationalgeographic.com/environment/article/deforestation
+
+Home Page content images:
+- https://unsplash.com/photos/TknRspuNTJs
+- https://unsplash.com/photos/Rfflri94rs8
+- https://unsplash.com/photos/_MG2TCW6wJo
+
 Footer Template - https://codingpoets.com/build-a-professional-web-application-with-php-and-mysql
 
 About Page image - https://images.pexels.com/photos/3493777/pexels-photo-3493777.jpeg?cs=srgb&dl=pexels-aleksey-

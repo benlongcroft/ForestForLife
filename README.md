@@ -12,24 +12,16 @@ counteract the effects of pollution, turning pollution into clean air. The users
 enough trees to offset the effects of pollution and lower the pollution levels to eventually zero.
 
 ### To-Do:
-- Add text to Home page
-- Add text to Explore page
-- Add text to About page
+- 2 days of testing
+- Code review of every page
 - Add text to Data Retention Policy page
-- Add text to Privacy Policy page
-- Add text to Terms and Conditions Page
 - Add text to Sonny’s game
-- Add text to email success page
-- Redesign email success page 
-- Redesign data policy page
-- Redesign privacy policy page
-- Redesign terms and cons page
 - Redesign README.md (to be done last)
-- Add encryption to stripe keys
 - Add admin functionality
 - Update meet the team pictures 
 
 #### Pages Completed
+- Home page
 - Donate Page
 - Donate success page
 - Donate cancelled page
@@ -38,6 +30,7 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 - Register page
 
 #### Optional Changes
+- Add encryption to stripe keys
 - Add two-factor authorisation
 - Add ads to sonny's forest game page
 - Use MySQL instead of SQlite
@@ -48,6 +41,7 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 ### Known Bugs:
 - SQlite is used instead of MYSQL due to connection issues
 - Testing of limited logins is required
+- Navbar margin too short in about.html
 
 ## How to run game
 #### Mac
@@ -100,4 +94,13 @@ Article Images:
 - https://wwfint.awsassets.panda.org/img/original/deforestation_fronts_report_cover.jpg
 - https://www.worldatlas.com/r/w1200/upload/6a/4b/49/shutterstock-1408605185.jpg
 - https://youmatter.world/app/uploads/sites/2/2018/10/climate-change-definition-meaning.jpg
-
+climate_change1 - https://unsplash.com/photos/_whs7FPfkwQ
+climate_change2 - https://unsplash.com/photos/5sh24a7m0BU
+climate_change3 - https://unsplash.com/photos/n52HL8hmsdg
+climate_change4 - https://unsplash.com/photos/96iwiAxOuJw
+climate_change5 - https://unsplash.com/photos/BqYttheZzUo
+climate_change6 - https://unsplash.com/photos/NBwP2jjnATE
+deforest1 - https://unsplash.com/photos/K5KmnZHv1Pg
+deforest2 - https://unsplash.com/photos/AcdCWfbCI1g
+deforest3 - https://unsplash.com/photos/GCeOASk9my8
+deforest4 - https://unsplash.com/photos/TrUbzz4KamI

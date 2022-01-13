@@ -4,93 +4,230 @@
 {% include 'includes/navbar.html' %}
 
     <br>
+
     <div class="container">
-        <h1 class="display-6 font-weight-bold">Recent articles</h1>
+
+        <div class="title text-center" style="background-color: #bad4c0; padding: 20px">
+            <h1 class="display-5 font-weight-bold">Explore: Climate Change and Deforestation</h1>
+            <p>The term 'climate change' refers to how through human activities (predominately burning fossil fuels)
+                the earth's concentration of greenhouse gases has increased, resulting in the warming of the planet.
+                Carbon dioxide is the waste product of burning fossil fuels; increased global industrialisation in
+                recent years has caused the rapid global acceleration of climate change by increasing carbon dioxide
+                in the atmosphere.
+            </p>
+            <p>It's not all over yet though. Trees play a big role in reducing greenhouse gases as they take in the
+                excess carbon dioxide from the atmosphere and release oxygen. Through this, trees provide a way of
+                reducing the harmful affects of air pollution produced by human activities. As a result of this,
+                deforestation reduces the collective impact that trees have on the environment and climate change as a
+                whole.
+            </p>
+        </div>
+
+        <br>
+        <br>
+
+        <h1 class="text-center display-6 font-weight-bold">Trending Articles</h1>
 
         <br>
 
         <div class="d-flex fLex-row fLex-nowrap overflow-auto">
-            <div class="col-4">
-                <div class="card card-block mx-2">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card card-block mx-2 h-100">
                     <img class="card-img-top" src="{% static 'forestforlife/img/climate_change.jpg' %}" alt="Climate Change">
                     <div class="card-body">
                         <h5 class="card-title">Climate Change</h5>
                         <p class="card-text">An article reporting on recent climate change concerns, analysing data.</p>
                         <a href="https://www.ipcc.ch/2021/08/09/ar6-wg1-20210809-pr/" class="btn btn-success">Article</a>
                     </div>
-                <div class="card-footer text-muted">
-                    8 hours ago
-                </div>
+                    <div class="card-footer text-muted">
+                        Published: 09/08/2021
+                    </div>
                 </div>
             </div>
-        <div class="col-4">
-            <div class="card card-block mx-2">
-                <img class="card-img-top" src="{% static 'forestforlife/img/deforestation2.jpg' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Deforestation</h5>
-                    <p class="card-text">An article on the rapid increase of deforestation within 2021.</p>
-                    <a href="https://edition.cnn.com/2021/11/18/world/deforestation-increase-amazon-report-climate/index.html" class="btn btn-success">Article</a>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card card-block mx-2 h-100">
+                    <img class="card-img-top" src="{% static 'forestforlife/img/deforestation2.jpg' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Deforestation</h5>
+                        <p class="card-text">An article on the rapid increase of deforestation within 2021.</p>
+                        <a href="https://edition.cnn.com/2021/11/18/world/deforestation-increase-amazon-report-climate/index.html" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 18/11/2021
+                    </div>
                 </div>
-                <div class="card-footer text-muted">
-                    22 days ago
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card card-block mx-2 h-100">
+                    <img class="card-img-top" src="{% static 'forestforlife/img/climate_change1.jpg' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Climate Change</h5>
+                        <p class="card-text">An article on Denmark to make domestic flights fossil fuel free by 2030.</p>
+                        <a href="https://www.bbc.co.uk/news/world-europe-59849898" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 02/01/2022
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card card-block mx-2 h-100">
+                    <img class="card-img-top" src="{% static 'forestforlife/img/deforestation3.jpg' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Deforestation</h5>
+                        <p class="card-text">An article discussing why stopping deforestation should be a top-priority.</p>
+                        <a href="https://www.greenbiz.com/article/fighting-deforestation-should-be-top-priority-2021-and-heres-how-it-can-be" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 11/01/2021
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card card-block mx-2 h-100">
+                    <img class="card-img-top" src="{% static 'forestforlife/img/climate_change2.jpg' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Climate Change</h5>
+                        <p class="card-text">An article discussing what scientists want from COP26.</p>
+                        <a href="https://www.bbc.co.uk/news/science-environment-59212185" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 09/11/2021
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card card-block mx-2 h-100">
+                    <img class="card-img-top" src="{% static 'forestforlife/img/deforestation.webp' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Deforestation</h5>
+                        <p class="card-text">A news article stating a promise to end deforestation by 2030.</p>
+                        <a href="https://www.bbc.co.uk/news/science-environment-59088498" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 02/11/2021
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-4">
-            <div class="card card-block mx-2">
-                <img class="card-img-top" src="{% static 'forestforlife/img/deforestation3.jpg' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Deforestation</h5>
-                    <p class="card-text">An article discussing why stopping deforestation should be a top-priority.</p>
-                    <a href="https://www.greenbiz.com/article/fighting-deforestation-should-be-top-priority-2021-and-heres-how-it-can-be" class="btn btn-success">Article</a>
-                </div>
-                <div class="card-footer text-muted">
-                    2 days ago
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="card card-block mx-2">
-                <img class="card-img-top" src="{% static 'forestforlife/img/deforestation.webp' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Deforestation</h5>
-                    <p class="card-text">A news article stating a promise to end deforestation by 2030.</p>
-                    <a href="https://www.bbc.co.uk/news/science-environment-59088498" class="btn btn-success">Article</a>
-                </div>
-                <div class="card-footer text-muted">
-                    8 days ago
-                </div>
-            </div>
-        </div>
-    </div>
+
+        <br>
+        <br>
+
+        <h1 class=" text-center display-6 font-weight-bold">Recent Articles</h1>
 
         <br>
 
-    <p>Aliquam, natus reprehenderit. Accusamus asperiores assumenda, corporis, dicta dolor dolorem eaque earum eius enim
-        fugit hic ipsa labore magni mollitia nam quidem quod quos saepe, sequi ullam. Eligendi, rem vitae!</p>
-    <p>Asperiores consectetur corporis et explicabo fugiat inventore ipsa itaque laborum nemo nisi, non quam, quas quia
-        quod repellendus sapiente ut. Alias dicta doloribus incidunt laudantium obcaecati perspiciatis, quam quia
-        suscipit!</p>
-    <p>Eos ipsam laborum, laudantium modi quia rem tempore tenetur! Aspernatur culpa illum, itaque minus mollitia, nisi
-        optio possimus, qui recusandae repudiandae ut vel voluptas voluptate? Aspernatur labore laudantium optio
-        velit!</p>
-    <p>Animi consectetur enim eos ex nesciunt odit, officia repellat repellendus ullam velit? Aliquam autem et ex fugit
-        impedit molestiae nostrum optio sint sunt tempora. Animi autem consequatur enim rerum voluptas.</p>
-    <p>Animi aperiam ipsam iure magnam, molestias mollitia non ratione repellendus velit voluptatum. Delectus
-        dignissimos dolores ea molestias nobis omnis porro sapiente, veritatis. Accusantium alias consectetur illo
-        laudantium quia repellat voluptatum.</p>
-    <p>Eaque optio porro sunt? Ad architecto asperiores autem blanditiis culpa dignissimos distinctio doloribus,
-        excepturi facilis hic mollitia neque perferendis perspiciatis placeat quam qui quibusdam ratione repellendus
-        rerum, soluta veritatis voluptate?</p>
-    <p>Earum, id illo maiores neque praesentium quae quisquam reprehenderit sed vel voluptatibus! Adipisci atque aut
-        deleniti ducimus, est eveniet nemo praesentium veniam vitae! Consequuntur incidunt, natus non quae qui
-        voluptate.</p>
-    <p>Ab accusamus asperiores ex id laboriosam magnam minima perspiciatis. Atque beatae cupiditate eius, esse labore
-        laudantium mollitia nam porro reiciendis voluptates. Ad dignissimos hic mollitia perferendis quia quis saepe
-        totam!</p>
-    <p>Earum inventore nulla rem. Alias at dicta distinctio doloremque eos esse expedita fuga in ipsam iure libero
-        maxime minus necessitatibus non nostrum numquam omnis pariatur, perspiciatis placeat sapiente tenetur
-        voluptas.</p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'forestforlife/img/climate_change3.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Climate Change</h5>
+                        <p class="card-text">An article reporting on the shrinking Amazonian bird population.</p>
+                        <a href="https://www.nationalgeographic.com/animals/article/climate-change-is-shrinking-many-amazonian-birds" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 12/11/2021
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'forestforlife/img/climate_change4.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Climate Change</h5>
+                        <p class="card-text">An article reporting on an oil company giants proposals.</p>
+                        <a href="https://news.sky.com/story/north-sea-gas-government-balancing-on-environmental-tightrope-as-shell-plans-drilling-in-jackdaw-field-12513617" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 04/11/2021
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'forestforlife/img/climate_change5.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Climate Change</h5>
+                        <p class="card-text">An article on why global experts say climate change is our greatest worry.</p>
+                        <a href="https://news.sky.com/story/climate-change-overtakes-pandemics-as-greatest-worry-for-global-experts-12513538" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 11/01/2022
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'forestforlife/img/climate_change6.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Climate Change</h5>
+                        <p class="card-text">An article reporting on the last seven years being the warmest yet.</p>
+                        <a href="https://news.sky.com/story/last-seven-years-were-warmest-on-record-by-a-clear-margin-say-eu-scientists-12512935" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 10/01/2022
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'forestforlife/img/deforest1.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Deforestation</h5>
+                        <p class="card-text">An article reporting on COP26 global deforestation pledge.</p>
+                        <a href="https://news.sky.com/story/north-sea-gas-government-balancing-on-environmental-tightrope-as-shell-plans-drilling-in-jackdaw-field-12513617 https://www.nationalgeographic.com/environment/article/will-the-cop26-global-deforestation-pledge-save-forests" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 11/01/2022
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'forestforlife/img/deforest2.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Deforestation</h5>
+                        <p class="card-text">An article reporting on deforestation statistics and figures.</p>
+                        <a href="https://www.livescience.com/27692-deforestation.html" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 06/01/2022
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'forestforlife/img/deforest3.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Deforestation</h5>
+                        <p class="card-text">An article reporting on why deforestation is a hot topic.</p>
+                        <a href="https://www.bbc.co.uk/news/science-environment-58399809" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 04/08/2021
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'forestforlife/img/deforest4.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Deforestation</h5>
+                        <p class="card-text">An article reporting on COP26 proposals and the events aftermath.</p>
+                        <a href="https://www.bbc.co.uk/news/science-environment-59744522" class="btn btn-success">Article</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Published: 29/12/2021
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
     </div>
 
 {% endblock %}

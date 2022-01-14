@@ -41,7 +41,6 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 ### Known Bugs:
 - SQlite is used instead of MYSQL due to connection issues
 - Testing of limited logins is required
-- Navbar margin too short in about.html
 
 ## How to run game
 #### Mac

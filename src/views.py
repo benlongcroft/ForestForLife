@@ -5,6 +5,11 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 class HomePage(TemplateView):
     template_name = 'index.html'
 
+    def get_context_data(self, **kwargs):
+        extra_context = {'title': 'ForestForLife'}
+        return extra_context
+
+
 
 class ExplorePage(TemplateView):
     template_name = 'explore.html'

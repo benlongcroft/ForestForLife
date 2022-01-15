@@ -15,7 +15,6 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 - 2 days of testing
 - Code review of every page
 - Add text to Data Retention Policy page
-- Add text to Sonny’s game
 - Redesign README.md (to be done last)
 - Add admin functionality
 - Update meet the team pictures 

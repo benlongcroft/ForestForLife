@@ -1,0 +1,31 @@
+.MeetTheTeam {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#MeetTeamCarouselCaptions .carousel-item {
+    height: 65vh;
+    background: #000;
+    color: #F9F3F4;
+    position: relative;
+}
+
+#MeetTeamCarouselCaptions .carousel-item .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+#MeetTeamCarouselCaptions .carousel-item .overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: url("/static/forestforlife/img/climate_change.jpg") center;
+    background-size: cover;
+    opacity: 0.5;
+}
+

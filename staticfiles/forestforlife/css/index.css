@@ -1,0 +1,90 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    background: url("/static/forestforlife/img/forrest.jpg") no-repeat 50% 50%;
+    display: table-cell;
+    top: 0;
+    background-size: cover;
+    position: relative;
+}
+
+.intro .inner{
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+    padding-top: 30vh;
+}
+
+.intro .nav-link{
+    color: #5b5c5b;
+}
+
+.intro .nav-link:hover{
+    color: #000;
+}
+
+.intro .h3{
+    padding-right: 30px;
+    color: #5b5c5b;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+
+.content{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1{
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    color: #F9F3F4;
+    text-shadow: 0 0 300px #000;
+    font-size: 300%;
+}
+
+.blockquote {
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    color: #F9F3F4;
+    text-shadow: 0 0 300px #000;
+    font-size: 95%;
+}
+.blockquote-footer {
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    color: #F9F3F4;
+    text-shadow: 0 0 300px #000;
+    font-size: 95%;
+    padding-bottom: 20px;
+}
+
+.intro .btn{
+    border-radius: 9px;
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    color: #bad4c0;
+    font-size: 135%;
+    padding: 5px 10px;
+    border: solid #bad4c0 2px;
+}
+
+.intro .btn:hover {
+    color: #fff;
+    border: solid #fff 2px;
+}
+
+p {
+    margin: 3%;
+}
+
+.lower {
+    background: #bad4c0;
+    padding: 0.5%;
+}
+
+
+

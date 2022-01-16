@@ -1,0 +1,16 @@
+.jumbotron {
+    padding: 60px;
+    background-color: #bad4c0;
+    text-align: center;
+}
+
+.cont {
+    text-align: center;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+

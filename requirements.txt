@@ -7,3 +7,4 @@ pyOpenSSL
 django_mysql
 pymysql
 stripe
+whitenoise

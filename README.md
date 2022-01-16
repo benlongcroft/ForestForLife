@@ -14,7 +14,6 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 ### To-Do:
 - 2 days of testing
 - Code review of every page
-- Add text to Data Retention Policy page
 - Redesign README.md (to be done last)
 - Add admin functionality
 - Update meet the team pictures 
@@ -27,6 +26,8 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 - Email page
 - Login page
 - Register page
+- Data Retention Policy
+- Terms and Conditions
 
 #### Optional Changes
 - Add encryption to stripe keys

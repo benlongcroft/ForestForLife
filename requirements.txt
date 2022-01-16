@@ -1,10 +1,11 @@
-Django
+Django~=4.0
 django_bootstrap5
 django_extensions
 django-axes
 Werkzeug
 pyOpenSSL
 django_mysql
-pymysql
-stripe
+pymysql~=1.0.2
+stripe~=2.64.0
 whitenoise
+python-dotenv~=0.19.2

@@ -10,11 +10,13 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
-
+from dotenv import load_dotenv, find_dotenv
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 from django.core.management import templates
+
+load_dotenv(find_dotenv())
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -22,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-%-&_a1xo_0xu%#t#z+aqhk+w+ds^_isok_c+!#c!x8%*w8_uhv'
+SECRET_KEY = os.environ.get('SECRETKEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -161,9 +163,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 DEFAULT_FROM_EMAIL = 'n.dawson3@newcastle.ac.uk'
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
+EMAIL_HOST_PASSWORD = os.environ.get('EMAILPASSWORD')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 STRIPE_PUBLISHABLE_KEY = "pk_test_51KBhmiLbQ9VMiGI9A2UvZwtp9VhwwcpkEd14foy22UuoWHe9jEpHct8f9n2c70RWB1qCwxOJ6Uwojnkf2cw1nQh400lfTJRRnv"
-STRIPE_SECRET_KEY = "sk_test_51KBhmiLbQ9VMiGI93cfyHWflc68CSWJAYVMO4UTowBCnYgHwNzxJa5G4vu7D75quD6WGc540PMf4IwGB2c9LkjwZ00ZhLGnPys"
+STRIPE_SECRET_KEY = os.environ.get('STRIPESECRET')

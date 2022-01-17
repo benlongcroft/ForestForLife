@@ -1,4 +1,3 @@
-console.log("Sanity check!");
 
 // Get Stripe publishable key
 fetch("/support/config")
@@ -7,7 +6,6 @@ fetch("/support/config")
   // Initialize Stripe.js
   const stripe = Stripe(data.publicKey);
 
-  // new
   // Event handler
   document.querySelector("#submitBtn").addEventListener("click", () => {
     // Get Checkout Session ID

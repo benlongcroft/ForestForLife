@@ -1,5 +1,3 @@
-from django.shortcuts import render
-
 from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
@@ -10,15 +8,18 @@ from django.views.decorators.csrf import csrf_exempt
 import stripe
 
 
+# Displays user with contact us form to enter information
 def contact(request):
     if request.method == 'GET':
         form = forms.ContactForm()
     else:
+        # Once user has sent form, data is then cleaned for security purposes
         form = forms.ContactForm(request.POST)
         if form.is_valid():
             subject = form.cleaned_data['subject']
             email = form.cleaned_data['email']
             message = form.cleaned_data['message']
+            # If successful, contact us form is sent to admin email
             try:
                 send_mail(subject, message, email, ['n.dawson3@newcastle.ac.uk'])
             except BadHeaderError:
@@ -35,6 +36,7 @@ def donate(request):
     return render(request, "donate.html")
 
 
+# View to handle XHR request for Stripe donations
 @csrf_exempt
 def stripe_config(request):
     if request.method == 'GET':
@@ -42,26 +44,21 @@ def stripe_config(request):
         return JsonResponse(stripe_config, safe=False)
 
 
+# Event handler to button's click event.
 @csrf_exempt
 def create_checkout_session(request):
     if request.method == 'GET':
         domain_url = 'http://localhost:8000/'
         stripe.api_key = settings.STRIPE_SECRET_KEY
         try:
-            # Create new Checkout Session for the order
-            # Other optional params include:
-            # [billing_address_collection] - to display billing address details on the page
-            # [customer] - if you have an existing Stripe Customer ID
-            # [payment_intent_data] - capture the payment later
-            # [customer_email] - prefill the email input in the form
-            # For full details see https://stripe.com/docs/api/checkout/sessions/create
-
-            # ?session_id={CHECKOUT_SESSION_ID} means the redirect will have the session ID set as a query param
+            # Create new Checkout Session for the order, redirecting user to appropriate page
+            # if donation is successful or not
             checkout_session = stripe.checkout.Session.create(
                 success_url='https://127.0.0.1:8000/' + 'support/d_success',
                 cancel_url='https://127.0.0.1:8000/' + 'support/d_cancelled',
                 payment_method_types=['card'],
                 mode='payment',
+                # Donation item information to be displayed to user
                 line_items=[
                     {
                         'name': 'Plant a tree',

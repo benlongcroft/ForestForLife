@@ -15,9 +15,9 @@ Future possible features:
 
 The game premise is as such:
 
-- A factory has recently been built near the user; it is producing pollution, effecting the user’s quality of air. 
-The pollution levels are slowly rising, creating an ever-worsening environment. It is the user’s task to plant trees to
-counteract the effects of pollution, turning pollution into clean air. The users core mission is to eventually plant 
+- A factory has recently been built near our character, Sonny; it is producing pollution, effecting Sonny's quality of air. 
+The pollution levels are slowly rising, creating an ever-worsening environment. It is Sonny's mission to plant trees to
+counteract the effects of pollution, turning pollution into clean air. The users core goal is to eventually plant 
 enough trees to offset the effects of pollution and lower the pollution levels to eventually zero.
 
 ## Running Project

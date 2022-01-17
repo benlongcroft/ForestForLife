@@ -2,7 +2,16 @@
 
 ### Introduction
 Forest For Life is an informative website consisting of articles, blogs, and a game, all revolving around climate
-change with an emphasis on deforestation.
+change with an emphasis on deforestation. Forest For Life is a non-profit project, with all profit made through
+donations being donated to charities relating to climate change and deforestation such as The Woodland Trust.
+
+Notable features of Forest For Life is its ability to allow users to make generous donations and contact admins through
+a contact us form, which when sent, is sent to an admins email.
+
+Future possible features:
+- A leaderboard displaying user information on Sonny's Forest page, alongside game
+- Sonny's Forest retaining user game data, allowing user to continue game state, when logging out and logging back in
+- Update donation feature, allowing user to choose how much they would like to donate
 
 The game premise is as such:
 
@@ -11,44 +20,21 @@ The pollution levels are slowly rising, creating an ever-worsening environment. 
 counteract the effects of pollution, turning pollution into clean air. The users core mission is to eventually plant 
 enough trees to offset the effects of pollution and lower the pollution levels to eventually zero.
 
-### To-Do:
-- 2 days of testing
-- Code review of every page
-- Redesign README.md (to be done last)
-- Add admin functionality
-- Update meet the team pictures 
+## Running Project
 
-#### Pages Completed
-- Home page
-- Donate Page
-- Donate success page
-- Donate cancelled page
-- Email page
-- Login page
-- Register page
-- Data Retention Policy
-- Terms and Conditions
+### Requirements to run game
+- Please locate requirements.txt and download all files specified
+- Please set up environment variables to access required sensitive information within .env file
 
-#### Optional Changes
-- Add encryption to stripe keys
-- Add two-factor authorisation
-- Add ads to sonny's forest game page
-- Use MySQL instead of SQlite
-- Add leaderboard feature to sonny's forest game page
-- Redesign home page navbar
-- Update social media accounts
-
-### Known Bugs:
-- SQlite is used instead of MYSQL due to connection issues
-- Testing of limited logins is required
-
-## How to run game
+### How to run game
+- Copy and paste relevant code into terminal
+- Once ran, click on 'https://127.0.0.1:8000/' highlighted in blue
 #### Mac
 ./manage.py runserver_plus --cert /tmp/cert
 #### Windows
 python manage.py runserver_plus --cert-file cert.pem --key-file key.pem
 
-### Temporary User Information
+### User Information
 User:
 Username: testuser
 Password: testpasswordd
@@ -57,7 +43,32 @@ Admin:
 Username: admin
 Password: testpassword
 
+### Contact us information
+Please note that only the email 'n.dawson3@newcastle.ac.uk' works when sending emails.
+This is due to operating a free SendGrid email hosting account. With a paid account being the only way of allowing
+any user-entered email to send emails.
+
+### Donation information
+Please note that only the card number '4242 4242 4242 4242' will work when sending donations.
+This is a test card number, allowing the user to send test money to simulate a real payment.
+Alongside this, it is necessary to provide an in-date expiry date.
+All other information is not important and can be a random name, email, CVC and post code in order to process the 
+donation.
+
+### Sonny's Forest
+Information regarding how to play Sonny's Forest can be found on Sonny's Forest page. Clicking on both Sonny's Forest -
+Backstory and Sonny's Forest - Tutorial to access dropdown text, further instructing the user.
+
+### Social Media
+Please note that all social media links, specifically ones found in the footer and the social media interaction buttons 
+found within d_success.html (donation successful page) are all fully functional and send the user to the relevant 
+social media accounts.
+
+
 ##Copyright Information
+A list of all relevant hyperlinks to images used throughout Forest For Life. Alongside this, hyperlinks to data sources
+are provided, which were used to help develop specified features within Forest For Life.
+
 Logo - https://creazilla.com/nodes/79045-cartoon-tree-clipart
 
 Home Page Background Image - https://www.freepik.com/free-photo/high-angle-shot-beautiful-forest-with-lot-green-trees-enveloped-
@@ -93,13 +104,13 @@ Article Images:
 - https://wwfint.awsassets.panda.org/img/original/deforestation_fronts_report_cover.jpg
 - https://www.worldatlas.com/r/w1200/upload/6a/4b/49/shutterstock-1408605185.jpg
 - https://youmatter.world/app/uploads/sites/2/2018/10/climate-change-definition-meaning.jpg
-climate_change1 - https://unsplash.com/photos/_whs7FPfkwQ
-climate_change2 - https://unsplash.com/photos/5sh24a7m0BU
-climate_change3 - https://unsplash.com/photos/n52HL8hmsdg
-climate_change4 - https://unsplash.com/photos/96iwiAxOuJw
-climate_change5 - https://unsplash.com/photos/BqYttheZzUo
-climate_change6 - https://unsplash.com/photos/NBwP2jjnATE
-deforest1 - https://unsplash.com/photos/K5KmnZHv1Pg
-deforest2 - https://unsplash.com/photos/AcdCWfbCI1g
-deforest3 - https://unsplash.com/photos/GCeOASk9my8
-deforest4 - https://unsplash.com/photos/TrUbzz4KamI
+- climate_change1 - https://unsplash.com/photos/_whs7FPfkwQ
+- climate_change2 - https://unsplash.com/photos/5sh24a7m0BU
+- climate_change3 - https://unsplash.com/photos/n52HL8hmsdg
+- climate_change4 - https://unsplash.com/photos/96iwiAxOuJw
+- climate_change5 - https://unsplash.com/photos/BqYttheZzUo
+- climate_change6 - https://unsplash.com/photos/NBwP2jjnATE
+- deforest1 - https://unsplash.com/photos/K5KmnZHv1Pg
+- deforest2 - https://unsplash.com/photos/AcdCWfbCI1g
+- deforest3 - https://unsplash.com/photos/GCeOASk9my8
+- deforest4 - https://unsplash.com/photos/TrUbzz4KamI

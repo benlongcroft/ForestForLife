@@ -19,12 +19,14 @@
                             <a class="nav-link" href="{% url 'sonnygame' %}">Sonny's Game</a>
                             <a class="nav-link" href="{% url 'explore' %}">Explore</a>
                             <a class="nav-link" href="{% url 'about' %}">About</a>
+                            <a class="nav-link" href="{% url 'support:donate' %}">Donate</a>
                             <a class="nav-link" href="{% url 'accounts:logout' %}">Logout</a>
                         {% else %}
                             <a class="nav-link" href="{% url 'accounts:register' %}">Register</a>
                             <a class="nav-link" href="{% url 'accounts:login' %}">Login</a>
                             <a class="nav-link" href="{% url 'explore' %}">Explore</a>
                             <a class="nav-link" href="{% url 'about' %}">About</a>
+                            <a class="nav-link" href="{% url 'support:donate' %}">Donate</a>
                         {% endif %}
                     </div>
                 </div>
@@ -53,7 +55,7 @@
         <div class="row row-cols-1 row-cols-lg-3 g-4">
             <div class="col">
                 <div class="card text-center">
-                    <img src="{% static 'forestforlife/img/forest.jpg' %}" class="card-img-top" alt="...">
+                    <img src="{% static 'forestforlife/img/Sonny_game.png' %}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Sonny's Forest</h5>
                         <p class="card-text">Become immersed in our tree planting game. Help us fight deforestation and stop pollution.</p>

@@ -1,3 +1,4 @@
+
 .MeetTheTeam {
     padding-left: 20%;
     padding-right: 20%;
@@ -18,13 +19,24 @@
     padding-bottom: 50px;
 }
 
-#MeetTeamCarouselCaptions .carousel-item .overlay-image {
+#MeetTeamCarouselCaptions .overlay-image {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     top: 0;
     background: url("/static/forestforlife/img/climate_change.jpg") center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+#MeetTeamCarouselCaptions .overlay-imageE {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: url("/static/forestforlife/img/Evita.jpg") center;
     background-size: cover;
     opacity: 0.5;
 }

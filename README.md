@@ -15,19 +15,19 @@ Future possible features:
 
 The game premise is as such:
 
-- A factory has recently been built near our character, Sonny; it is producing pollution, effecting Sonny's quality of air. 
-The pollution levels are slowly rising, creating an ever-worsening environment. It is Sonny's mission to plant trees to
-counteract the effects of pollution, turning pollution into clean air. The users core goal is to eventually plant 
-enough trees to offset the effects of pollution and lower the pollution levels to eventually zero.
+- A factory has recently been built near our character, Sonny; it is producing pollution, effecting Sonny's quality of 
+air. The pollution levels are slowly rising, creating an ever-worsening environment. It is Sonny's mission to plant 
+trees to counteract the effects of pollution, turning pollution into clean air. Sonny's core goal is to eventually 
+plant enough trees to offset the effects of pollution and lower the pollution levels to eventually zero.
 
 ## Running Project
-
+Please note that the following information regarding how to run the project is done so under the impression that the 
+user is using PyCharm IDE, other software may vary.
 ### Requirements to run game
 - Please locate requirements.txt and download all files specified
-- Please set up environment variables to access required sensitive information within .env file
 
 ### How to run game
-- Copy and paste relevant code into terminal
+- Copy and paste relevant code from below into terminal
 - Once ran, click on 'https://127.0.0.1:8000/' highlighted in blue
 #### Mac
 ./manage.py runserver_plus --cert /tmp/cert
@@ -35,20 +35,24 @@ enough trees to offset the effects of pollution and lower the pollution levels t
 python manage.py runserver_plus --cert-file cert.pem --key-file key.pem
 
 ### User Information
-User:
+####User
 Username: testuser
 Password: testpasswordd
 
-Admin:
+####Admin
 Username: admin
 Password: testpassword
 
 ### Contact us information
+Once a contact us form is sent and passes all criteria, the message is sent to the email address
+'n.dawson3@newcastle.ac.uk'.
 Please note that only the email 'n.dawson3@newcastle.ac.uk' works when sending emails.
 This is due to operating a free SendGrid email hosting account. With a paid account being the only way of allowing
 any user-entered email to send emails.
 
 ### Donation information
+A test account has been set up with Stripe. As such, test money can be sent to the account and is visible within the 
+Stripe account.
 Please note that only the card number '4242 4242 4242 4242' will work when sending donations.
 This is a test card number, allowing the user to send test money to simulate a real payment.
 Alongside this, it is necessary to provide an in-date expiry date.
@@ -64,7 +68,88 @@ Please note that all social media links, specifically ones found in the footer a
 found within d_success.html (donation successful page) are all fully functional and send the user to the relevant 
 social media accounts.
 
+# Further Information Regarding Sonny's Forest
 
+### Description
+
+A short 2D isometric game created by Team 22 (Newcastle University) for the Forest For Life website. This game was built
+in Unity for CSC2033.
+
+### Prerequisites
+
+-   Browser WebGL support
+-   Keyboard
+
+This game requires a browser supporting WebGL 1.0
+
+**To play** the game, simply head to the Forest For Life website or check out https://simmer.io/@Team_22/sonny-s-forest to play. 
+
+This game is 27.2MB once built into a Web GL application.
+
+### About Sonny's Forest
+
+Sonny's Forest is a fun web game for 8 year olds and older. 
+
+30 years in the future, with climate change ravaging the planet, Sonny makes a promise to try and replant the trees. 
+Starting with one field, explore Sonny's Forest, fight the pollution and collect seeds.
+
+### How to Play
+
+Playing Sonny's Forest is easy, use the **arrow keys** to move around the forest. 
+
+press **P** to plant a tree while standing next to a plot.
+
+press **tab** to change your loadout
+
+Once a tree has died, you can press **C** when near the plot to free up space.
+
+Watch your balance of Rune Coins grow on the counter at the top. Don't let the pollution get to 100%, or it's game over! 
+Check out the tree stats for advice on strategy.
+
+### Tree Stats
+
+##### Nurgi Needle
+
+*Lifespan - >* ~100 seconds
+
+*Efficiency- >* 90%
+
+*Seed Growth Time - >* ~9 seconds
+
+*Price - >* 0.20 RC
+
+
+##### Fovir Fir
+
+*Lifespan - >* ~150 seconds
+
+*Efficiency- >* 80%
+
+*Seed Growth Time - >* ~14 seconds
+
+*Price - >* 0.35 RC
+
+
+##### Ackerieva Apple
+
+*Lifespan ->* ~315 seconds
+
+*Efficiency- >* 50%
+
+*Seed Growth Time - >* ~28 seconds
+
+*Price - >* 0.50 RC
+
+
+##### Golucki Gladious 
+
+*Lifespan ->* ~400
+
+*Efficiency- >* 30%
+
+*Seed Growth Time - >* 35 seconds
+
+*Price - >* 0.70 RC
 ##Copyright Information
 A list of all relevant hyperlinks to images used throughout Forest For Life. Alongside this, hyperlinks to data sources
 are provided, which were used to help develop specified features within Forest For Life.

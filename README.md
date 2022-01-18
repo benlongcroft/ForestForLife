@@ -43,6 +43,11 @@ Password: testpasswordd
 Username: admin
 Password: testpassword
 
+### Login Attempt Reset
+When testing user login and Logout please be aware that the only way to reset attempts if the user was to be
+locked out would be to run the following command within the terminal:
+python manage.py axes_reset
+
 ### Contact us information
 Once a contact us form is sent and passes all criteria, the message is sent to the email address
 'n.dawson3@newcastle.ac.uk'.

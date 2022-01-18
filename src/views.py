@@ -4,8 +4,13 @@ Forest For Life Views
 Links all of the template views to classes
 """
 
+from django.shortcuts import render
 from django.views.generic import TemplateView
 from django.contrib.auth.mixins import LoginRequiredMixin
+
+
+def page_not_foundPage(request, exception):
+    return render(request, '404.html', status=404)
 
 
 class HomePage(TemplateView):

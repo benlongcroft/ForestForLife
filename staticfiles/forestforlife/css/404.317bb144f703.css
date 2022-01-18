@@ -1,0 +1,47 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    background: #bad4c0 no-repeat 50% 50%;
+    display: table-cell;
+    top: 0;
+    background-size: cover;
+    position: relative;
+}
+
+.intro .inner{
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+    padding-top: 30vh;
+}
+
+.intro .nav-link{
+    color: #5b5c5b;
+}
+
+.intro .nav-link:hover{
+    color: #000;
+}
+
+.content{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro .btn{
+    border-radius: 9px;
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    color: #bad4c0;
+    font-size: 135%;
+    padding: 5px 10px;
+    border: solid #bad4c0 2px;
+}

@@ -21,3 +21,5 @@ urlpatterns = [
     path('terms_and_cond', views.TnCPage.as_view(), name='terms_and_cond')
 
 ]
+
+handler404 = 'src.views.page_not_foundPage'

@@ -107,16 +107,26 @@ USE_TZ = True
 
 
 # Security
+
+# X-XSS-Protection
 SECURE_BROWSER_XSS_FILTER = True
+# X-Content-Type-Options
 SECURE_CONTENT_TYPE_NOSNIFF = True
+# Strict Transport Security
 SECURE_HSTS_SECONDS = 15768000
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
+# Enforces HTTPS, with HTTP requests being redirected to HTTPS
 SECURE_SSL_REDIRECT = True
+# Browser may ensure cookie is sent over HTTPS
 CSRF_COOKIE_SECURE = True
+# Store cookie in the session
 CSRF_USE_SESSIONS = True
+# Client-side JavaScript deny access to the CSRF cookie
 CSRF_COOKIE_HTTPONLY = True
+# Browser may ensure cookie is sent over HTTPS
 SESSION_COOKIE_SECURE = True
+# Prevents cookie from being sent to target-site
 SESSION_COOKIE_SAMESITE = 'Strict'
 
 # Static files (CSS, JavaScript, Images)

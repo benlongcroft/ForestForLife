@@ -40,13 +40,18 @@ Username: testuser
 Password: testpasswordd
 
 ####Admin
+Please note that in order to access admin UI, user has to type '/admin' in front of url 'https://127.0.0.1:8000/' 
+creating the full url 'https://127.0.0.1:8000/admin'.
 Username: admin
 Password: testpassword
 
 ### Login Attempt Reset
-When testing user login and Logout please be aware that the only way to reset attempts if the user was to be
+When testing user login and logout, please be aware that the best way to reset attempts if the user was to be
 locked out would be to run the following command within the terminal:
-python manage.py axes_reset
+**python manage.py axes_reset**
+It is possible to reset the attempts through the admin UI however with axes locking accounts based off of IP
+addresses, it is easier to use the command as found in the documentation
+https://django-axes.readthedocs.io/en/latest/3_usage.html.
 
 ### Contact us information
 Once a contact us form is sent and passes all criteria, the message is sent to the email address

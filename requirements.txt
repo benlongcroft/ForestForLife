@@ -4,7 +4,6 @@ django_extensions
 django-axes
 Werkzeug
 pyOpenSSL
-django_mysql
 pymysql~=1.0.2
 stripe~=2.64.0
 whitenoise

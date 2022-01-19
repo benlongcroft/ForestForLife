@@ -23,6 +23,9 @@ html, body{
     padding-top: 30vh;
 }
 
+.intro .navbar-brand {
+    color: #000;
+}
 .intro .nav-link{
     color: #5b5c5b;
 }

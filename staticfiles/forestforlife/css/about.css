@@ -19,17 +19,6 @@
     padding-bottom: 50px;
 }
 
-#MeetTeamCarouselCaptions .overlay-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background: url("/static/forestforlife/img/climate_change.jpg") center;
-    background-size: cover;
-    opacity: 0.5;
-}
-
 #MeetTeamCarouselCaptions .overlay-imageE {
     position: absolute;
     bottom: 0;
@@ -47,8 +36,43 @@
     left: 0;
     right: 0;
     top: 0;
-    background: url("/static/forestforlife/img/Alfie.jpg") center;
+    background: url("/static/forestforlife/img/Alfie_img.jpg") center;
     background-size: cover;
     opacity: 0.5;
 }
+
+#MeetTeamCarouselCaptions .overlay-imageN {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: url("/static/forestforlife/img/Nathan.JPG") center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+
+#MeetTeamCarouselCaptions .overlay-imageL {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: url("/static/forestforlife/img/lua.jpg") center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+#MeetTeamCarouselCaptions .overlay-imageB {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: url("/static/forestforlife/img/scary_ben.jpg") center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
 

@@ -23,10 +23,11 @@ plant enough trees to offset the effects of pollution and lower the pollution le
 ## Running Project
 Please note that the following information regarding how to run the project is done so under the impression that the 
 user is using PyCharm IDE, other software may vary.
-### Requirements to run game
+### Requirements to run project
+- Python 3.9 +
 - Please locate requirements.txt and download all files specified
 
-### How to run game
+### How to run project
 - Copy and paste relevant code from below into terminal
 - Once ran, click on 'https://127.0.0.1:8000/' highlighted in blue
 #### Mac
